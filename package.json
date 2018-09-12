@@ -1,0 +1,26 @@
+{
+  "name": "leaflet-mvvm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/leaflet-mvvm.js",
+  "scripts": {
+    "build": "microbundle -i src/index.js -o dist --name=MapMvvm",
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/postor/leaflet-mvvm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/postor/leaflet-mvvm/issues"
+  },
+  "homepage": "https://github.com/postor/leaflet-mvvm#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "microbundle": "^0.6.0"
+  }
+}
